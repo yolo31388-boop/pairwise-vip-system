@@ -1,0 +1,21 @@
+from .system import (
+    VipSystem,
+    VIPLevel,
+    LEVEL_CONFIG,
+    DEFAULT_MAX_LEVEL,
+    DEFAULT_RECHARGE_RATIO,
+    DEFAULT_CONSUME_RATIO,
+    DEFAULT_OVERFLOW_REWARDS,
+    DEFAULT_DAILY_GIFT,
+)
+
+__all__ = [
+    "VipSystem",
+    "VIPLevel",
+    "LEVEL_CONFIG",
+    "DEFAULT_MAX_LEVEL",
+    "DEFAULT_RECHARGE_RATIO",
+    "DEFAULT_CONSUME_RATIO",
+    "DEFAULT_OVERFLOW_REWARDS",
+    "DEFAULT_DAILY_GIFT",
+]
